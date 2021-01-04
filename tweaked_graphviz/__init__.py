@@ -25,7 +25,7 @@ package_name = package['name'].replace(' ', '_').replace('-', '_')
 __version__ = package['version']
 """
 package_name = 'tweaked_graphviz'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 _current_path = _os.path.dirname(_os.path.abspath(__file__))
 
