@@ -15,7 +15,7 @@ if not hasattr(_dash, 'development'):
           'Make sure you don\'t have a file '
           'named \n"dash.py" in your current directory.', file=_sys.stderr)
     _sys.exit(1)
-
+"""
 _basepath = _os.path.dirname(__file__)
 _filepath = _os.path.abspath(_os.path.join(_basepath, 'package-info.json'))
 with open(_filepath) as f:
@@ -23,6 +23,9 @@ with open(_filepath) as f:
 
 package_name = package['name'].replace(' ', '_').replace('-', '_')
 __version__ = package['version']
+"""
+package_name = 'tweaked_graphviz'
+__version__ = '0.0.1'
 
 _current_path = _os.path.dirname(_os.path.abspath(__file__))
 
