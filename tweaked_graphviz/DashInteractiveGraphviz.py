@@ -40,7 +40,7 @@ session: window.sessionStorage, data is cleared once the browser quit."""
     def __init__(self, id=Component.UNDEFINED, selected=Component.UNDEFINED, dot_source=Component.UNDEFINED, engine=Component.UNDEFINED, transition=Component.UNDEFINED, style=Component.UNDEFINED, fit_button_style=Component.UNDEFINED, fit_button_content=Component.UNDEFINED, persistence=Component.UNDEFINED, persisted_props=Component.UNDEFINED, persistence_type=Component.UNDEFINED, **kwargs):
         self._prop_names = ['id', 'selected', 'dot_source', 'engine', 'transition', 'style', 'fit_button_style', 'fit_button_content', 'persistence', 'persisted_props', 'persistence_type']
         self._type = 'DashInteractiveGraphviz'
-        self._namespace = 'dash_interactive_graphviz'
+        self._namespace = 'tweaked_graphviz'
         self._valid_wildcard_attributes =            []
         self.available_properties = ['id', 'selected', 'dot_source', 'engine', 'transition', 'style', 'fit_button_style', 'fit_button_content', 'persistence', 'persisted_props', 'persistence_type']
         self.available_wildcard_properties =            []
